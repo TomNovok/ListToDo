@@ -1,0 +1,26 @@
+<div class='table__hidden-div-plan'
+     id='planNewHiddenDiv_<?php echo $num ?>'
+     name='planNewHiddenDiv_<?php echo $num ?>'>
+    <input type='text'
+           id='planNewEditText_<?php echo $num ?>'
+           name='planNewEditText_<?php echo $num ?>'
+           class='table__textedit-plan'
+           onkeyup="KeyPressInPlansEditItem('add', event);"
+           autocomplete='off'>
+    <input type='button'
+           id='planNewBtnOk_<?php echo $num ?>'
+           name='planNewBtnOk_<?php echo $num ?>'
+           class='table__small-buttons'
+           value=''
+           title='Добавить'
+           onclick="ajaxAddPlan('<?php echo $num; ?>');"
+           style="right: 16px; background-image: url('../../assets/images/save.svg');">
+    <input type='reset'
+           id='planNewBtnCancel_<?php echo $num ?>'
+           name='planNewBtnCancel_<?php echo $num ?>'
+           class='table__small-buttons'
+           value=''
+           title='Отменить'
+           onclick='hideNewPlanWidgets(<?php echo $num ?>)'
+           style="right: 0px; background-image: url('../../assets/images/block.svg');">
+</div>

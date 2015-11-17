@@ -1,0 +1,25 @@
+#fc
+{
+    border-collapse:collapse;
+    background: #FFFFFF;
+    border:1px solid #ccc;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    user-select:none;
+    width:250px;
+    left: 10px;
+    table-layout: fixed;
+    margin: auto;
+}
+
+.calendar__cell
+{
+    width: 18px;
+    height: 18px;
+    font-family: Arial;
+}
+
+.calendar__cell:hover
+{
+    background-color: black;
+}

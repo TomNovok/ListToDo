@@ -1,0 +1,79 @@
+.contacts__container
+{
+    padding: 10px;
+}
+.contacts__feedback
+{
+    margin-top: 15px;
+    margin-left: -8px;
+    display: table;
+}
+.contacts__input
+{
+    background: #fbfbfb;
+    font-size: medium;
+    width: 450px;
+    padding: 3px;
+    margin: 0px 6px 5px 5px;
+    outline: none;
+    border: 1px solid #d9d9d9;
+    display: table-cell;
+}
+.contacts__textarea
+{
+    background: #fbfbfb;
+    font-size: medium;
+    width: 450px;
+    padding: 3px;
+    margin: 0px 6px 2px 5px;
+    outline: none;
+    border: 1px solid #d9d9d9;
+    display: table-cell;
+    resize: none;
+    height: 200px;
+}
+
+.contacts__label
+{
+    font-size: 16px;
+    color: grey;
+    margin: 5px 0px 3px 5px;
+    display: table-cell; 
+    width: 140px;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 4px;
+}
+
+.contacts__labellabel
+{
+    display: table-row;
+}
+.contacts__button
+{
+    display: inline-block;
+    background-color: transparent;
+    border:  1px solid #ccc;
+    padding: 5px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    outline-style: none;
+    margin-left: 2px;
+    color: grey;
+}
+.contacts__button:hover
+{
+    background-color: #AEF6D8;
+    color: black;
+}
+.contacts__buttons-container
+{
+    margin-left: 143px;
+}
+.contacts__info-message
+{
+    color: #0431B4;
+    padding-top: 10px;
+    margin-left: 144px;
+}

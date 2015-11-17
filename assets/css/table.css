@@ -1,0 +1,143 @@
+.table__table
+{
+    border: none;
+    color: #ccc;    
+    font-size: small;
+    margin: 5px;
+    table-layout: fixed;
+    width: calc(100% - 11px);
+    width: -webkit-calc(100% - 11px);
+    min-width: 560px;
+}
+.table__current-day
+{
+    background-color: #ebf3fc;
+}
+.table__weekend
+{
+    background-color: #98a7d6;
+}
+.table__weekday
+{
+    background-color: #bdc6e5;
+}
+.table__buttons-sideways
+{
+    border: none;
+    outline-style: none;
+    padding: 0px;
+    background-color: transparent;
+    opacity: 0.2;
+    width: 40px;
+    height: 40px;  
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.table__buttons-sideways-td
+{
+    width:45px;
+    height: calc(100% + 30px);
+    height: -webkit-(100% + 30px);
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.table__buttons-sideways-td:hover
+{
+    background-color: #f4f4f4;
+    border: 1px solid #f4f4f4;
+}
+.table__empty-td
+{
+    border: none;
+    width: 5px;
+}
+
+.table__day-td
+{
+    text-align: center;
+    width: 100px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.table__plan-td
+{
+    vertical-align: top;
+    min-width: 150px;
+    border: 1px solid #ccc;
+}
+
+.table__day
+{
+    color: black;
+    margin: 5px;
+    font-weight: 400;
+}
+
+.table__month
+{
+    color: black;
+}
+
+.table__day_of_week
+{
+    color: black;
+}
+
+.table__div-plan
+{
+    position: relative;
+    color: black;
+    height: 20px;
+    padding: 2px;
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: small;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 15px;
+}
+
+.table__hidden-div-plan
+{
+    position: relative;
+    height: 20px;
+    display: none;
+}
+
+.table__textedit-plan
+{
+    height: 20px;
+    border: 1px solid #ccc;
+    position: absolute;
+    outline-style: none;
+    width: 100%;
+    padding: 1px 60px 2px 1px;
+    display: none;
+    font-size: small;
+    font-weight: 400;
+}
+.table__small-buttons
+{
+   cursor: pointer;
+   outline-style: none;
+   background-color: transparent;
+   border: 0;
+   width: 16px;
+   height: 16px;
+   position: absolute;
+   opacity: 0.2;
+   display: none;
+   padding: 0px;
+   margin: 2px 2px 2px 0px; 
+   top: 0px;
+}
+.table__small-buttons:hover
+{
+   opacity: 0.5;
+}

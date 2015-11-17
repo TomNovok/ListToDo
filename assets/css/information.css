@@ -1,0 +1,35 @@
+.information__form
+{
+    height: 100%;
+    font-size: 0;
+    position: relative;
+}
+.information__textarea
+{
+    width: calc(100% - 12px);
+    width: -webkit-calc(100% - 12px);
+    height: calc(100% - 10px);
+    height: -webkit-calc(100% - 10px);
+    margin: 5px;
+    padding: 5px;
+    outline-style: none;
+    resize: none;
+    border:  1px solid #ccc;
+    font-size: 15px;
+}
+.information__button
+{
+    display: inline-block;
+    background-color: transparent;
+    border:  1px solid #ccc;
+    padding: 5px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    outline-style: none;
+    margin-left: 5px;
+}
+.information__button:hover
+{
+    background-color: #AEF6D8;
+}

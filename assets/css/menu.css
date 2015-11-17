@@ -1,0 +1,123 @@
+.menu__container
+{
+    padding: 5px;
+    font-family: "Roboto Mono"
+}
+
+.menu__list
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu__list-item-link
+{
+    text-decoration:none;
+    color: black;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    line-height: 200%;
+    outline: none;
+    cursor: pointer;
+}
+.menu__list-item-div
+{
+    height: 32px;
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+}
+.menu__edit-widgets-div
+{
+    display: none;
+    height: 32px;
+    position: relative;
+}
+.menu__selected
+{
+    color: #0431B4;;
+}
+.menu__hidden
+{
+    display: none;
+}
+.menu__edit-tab 
+{
+    display: none;
+    border: none;
+    height: 30px;
+    outline-style: none;
+    padding-left: 10px;
+    padding-right: 60px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 16px;
+    position: absolute;
+    background-color: transparent;
+}
+
+.menu__small-buttons
+{
+   cursor: pointer;
+   outline-style: none;
+   background-color: transparent;
+   border: 0;
+   width: 16px;
+   height: 16px;
+   position: absolute;
+   opacity: 0.2;
+   display: none;
+   padding: 0px;
+   margin: 8px 8px 8px 0px;
+   top: 0px;
+}
+
+.menu__small-buttons:hover
+{
+   opacity: 0.5;
+}
+
+.menu__small-buttons-i
+{
+   cursor: pointer;
+   outline-style: none;
+   background-color: transparent;
+   border: 0;
+   width: 32px;
+   height: 32px;
+   position: absolute;
+   opacity: 0.2;
+   display: none;
+   padding: 0px;
+   padding: 8px;
+   top: 0px;
+   right: 0px;
+   color: black;
+}
+
+.menu__small-buttons-i:hover
+{
+   opacity: 0.5;
+}
+
+.menu__button-plus
+{
+   cursor: pointer;
+   outline-style: none;
+   background-color: transparent;
+   border: 0;
+   width: 20px;
+   height: 20px;
+   margin: 6px 0px 0px -2px;
+   position: absolute;
+   opacity: 0.2;
+   display: inline;
+   padding: 0px;
+   top: 0px;
+}
+
+.hide
+{
+    display: none;
+}

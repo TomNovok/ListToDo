@@ -1,0 +1,22 @@
+.footer__container
+{  
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.footer__alt
+{
+    float: left;
+    color: grey;
+    display: inline-block;
+    font-size: small;
+    padding: 5px;
+}
+.footer__clock
+{
+    float: right;
+    color: grey;
+    display: inline-block;
+    font-size: small;
+    padding: 5px;
+}

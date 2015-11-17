@@ -1,0 +1,90 @@
+.auth__ground-table
+{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.auth__ground-table-cell
+{
+    display: table-cell;
+    background-color: #E6E6E6;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.auth__login-form
+{
+    display: inline-block;
+    width: 380px;
+    padding: 15px;
+    background-color: #EFFBFB;
+    border: 1px solid #d9d9d9;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.auth__input-text
+{
+    font-size: 20px;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #d9d9d9;
+    color: grey;
+}
+.auth__input-text:focus
+{
+    border: 1px solid silver;
+}
+.auth__label
+{
+    color: grey;
+    text-align: left;
+    padding: 10px 0 5px 5px;
+}
+
+.auth__question
+{
+    float: left;
+    margin-top: 14px;
+    font-size: small;
+    color: grey;
+    text-align: left;
+}
+
+.auth__link
+{
+    color: grey;
+    outline: none;
+}
+
+.auth__button
+{
+    display: inline-block;
+    background-color: white;
+    border:  1px solid #ccc;
+    padding: 5px;
+    cursor: pointer;
+    outline-style: none;
+    color: grey;
+    margin-top: 18px;
+    width: 150px;
+    height: 30px;
+    float: right;
+}
+.auth__button:focus
+{
+    border: 1px solid silver;
+}
+.auth__button::-moz-focus-inner
+{
+    border: none;
+}
+.auth__button:hover
+{
+    background-color: #AEF6D8;
+    color: black;
+}
+.auth__message
+{
+    color: grey;
+}
